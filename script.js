@@ -70,7 +70,7 @@ async function buscar() {
   }
 
   try {
-    // Uma expressão comum em Javscript que serve para verificar se determinado valor é um número
+    // "!isNan" é uma expressão comum em Javscript que serve para verificar se determinado valor é um número
     if (!isNaN(valor)) {
     // await para esperar uma resposta do servidor do backend 
     // "http://localhost:3006/cadastros/numeroTal"
